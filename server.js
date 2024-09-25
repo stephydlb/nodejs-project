@@ -1,8 +1,12 @@
 // imports
 var express = require('express')
+var bodyParser = require('body-parser') // ceci permet de recuperer les donnees du body de la requette http
 
 // instantiate server
 var server = express();
+
+// Body parser configuration
+server.use(bodyParser.urlencoded({ extended: true }));
 
 // configure routes
 server.get('/', function (req, res) {
