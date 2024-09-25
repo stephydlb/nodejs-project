@@ -15,8 +15,12 @@
   "author": "stephane",
   "license": "ISC",
   "dependencies": {
+    "-": "^0.0.1",
     "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
-    "sequelize": "^6.37.3"
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
   }
 }
